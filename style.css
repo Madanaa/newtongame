@@ -1,0 +1,53 @@
+#score { text-align: center; }
+
+#game {
+  width: 900px;
+  height: 355px;
+  border: 2px solid black;
+  margin: auto;
+  background-image: url("https://static.wixstatic.com/media/6ab06b_5d486de9f315470694c6c3ebab2c68d4~mv2.jpg/v1/fill/w_516,h_396,al_c,q_80,usm_0.66_1.00_0.01/tech_JPG.webp");
+  background-size: cover;
+}
+
+#student {
+  height: 130px;
+  width: 70px;
+  top: 225px;
+  position: relative;
+  background-image: url("./N-2--unscreen.gif");
+  background-size: cover;
+}
+
+#newton {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 175px;
+  left: 550px;
+  background-image: url("./nst.png");
+  background-size: cover;
+  animation: newton 1.33s infinite;
+}
+
+@keyframes newton {
+  0%{left: 550px;}
+  100%{left: -50px;}
+}
+
+.jump-animation {
+  animation: jump 0.5s;
+}
+
+@keyframes jump {
+  0%{top: 225px;}
+  50%{top: 75px;}
+  75%{top: 75px;}
+  100%{top: 225px;}
+}
+.credit {
+  margin-left: 12px;
+  font-size: 20px;
+  font-style: normal;
+text-align: center;
+color: rgb(30, 173, 255);
+}
