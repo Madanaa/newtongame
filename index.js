@@ -29,7 +29,7 @@ setInterval(() => {
 
   if (newtonLeft < 50 && newtonLeft > 0 && studentTop > 150) {
     alert("You got a score of: " + score.innerText +
-      "\n\nPlay again?");
+      "\n\nFor Play Press Spacebar Key");
     location.reload();
   }
 }, 50);
