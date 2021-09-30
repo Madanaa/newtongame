@@ -4,7 +4,7 @@ Hi, I'm Madan 👋
 
 Functionalities:
 
-This is simple game simller to dino game and funcationalities.
+This is a simple game similar to a dino game and functionalities.
 
 ![image](https://user-images.githubusercontent.com/58905767/135399060-8b200b81-59e8-4c6b-ae16-09ab422864c3.png)
 
